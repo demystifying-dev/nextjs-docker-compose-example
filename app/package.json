@@ -8,11 +8,10 @@
   },
   "dependencies": {
     "next": "latest",
+    "bulma-pro": "^0.1.7",
+    "rbx": "^2.2.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
-  },
-  "devDependencies": {
-    "isomorphic-unfetch": "^3.0.0"
   },
   "license": "ISC"
 }
