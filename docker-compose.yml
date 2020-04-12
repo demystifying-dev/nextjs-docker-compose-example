@@ -7,23 +7,5 @@ services:
       dockerfile: ./.docker/awf-next/Dockerfile
     image: awf-next
     container_name: awf-next
-    # restart: unless-stopped
-    #    env_file: .env
-    #environment:
-    #  - MONGO_USERNAME=$MONGO_USERNAME
-    #  - MONGO_PASSWORD=$MONGO_PASSWORD
-    #  - MONGO_HOSTNAME=db
-    #  - MONGO_PORT=$MONGO_PORT
-    #  - MONGO_DB=$MONGO_DB
     ports:
       - '3000:3000'
-#   volumes:
-#     - ./app:/usr/src/app
-#     - node_modules:/usr/src/app/node_modules
-#   networks:
-#     - app-network
-#   command:
-#     ./wait-for.sh db:27017 -- /home/node/app/node_modules/.bin/nodemon app.js
-
-# volumes:
-#   node_modules:
