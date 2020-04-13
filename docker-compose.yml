@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 
 services:
   awf-next:
@@ -8,8 +8,14 @@ services:
     image: awf-next
     container_name: awf-next
     ports:
-      - '3000:3000'
+      - "3000:3000"
     volumes:
       - ./app:/usr/src/app
       - /usr/src/app/node_modules
       - /usr/src/app/.next
+    networks:
+      homepage-backend_awf-app-network:
+
+networks:
+  homepage-backend_awf-app-network:
+    external: true
