@@ -2,5 +2,5 @@
 
 ## Video
 
-[![nextjs docker compose example](https://youtu.be/ZcCZlboKx6Y) 
+[![nextjs docker compose example](http://img.youtube.com/vi/ZcCZlboKx6Y/0.jpg)](https://youtu.be/ZcCZlboKx6Y) 
 
